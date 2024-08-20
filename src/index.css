@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  max-width: 1440px;
+  height: 810px;
+  padding: 105px 250px 105px 250px;
+  background: #eff5ff;
+}
+.container {
+  width: 940px;
+  height: 600px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.menu-container {
+  width: 274px;
+  height: 568px;
+  padding: 40px 30px;
+  border-radius: 15px;
+  background-image: url("./assets//bg-sidebar-desktop.svg");
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+.menu-items-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 183px;
+  height: 33px;
+}
+.number-item {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 33px;
+  height: 33px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step-item {
+  height: 14px;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13.79px;
+  text-align: left;
+  color: #abbcff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.title-item {
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.09px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.paragraf-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+.main-items-container {
+  width: 450px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.main-items-container h1 {
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.77px;
+  text-align: left;
+  color: #022959;
+}
+.main-items-container p {
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #9699aa;
+}
+.main-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.inputs-container {
+  width: 450px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.input-container {
+  width: 450px;
+  height: 72px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.input-container label {
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16.09px;
+  text-align: left;
+  color: #022959;
+  padding-bottom: 5px;
+}
+.input-container input {
+  width: 450px;
+  height: 48px;
+  outline: none;
+  border: 1px solid #9699aa;
+  padding: 20px;
+  border-radius: 10px;
+}
+input::placeholder {
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  color: #9699aa;
+}
+input {
+  cursor: text;
+}
+.btn-container {
+  width: 450px;
+  height: 48px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  cursor: pointer;
+}
+.next-button {
+  width: 123px;
+  height: 48px;
+  background: #022959;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.btn {
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.btn span {
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.38px;
+  text-align: left;
+  color: #9699aa;
+}
+.card-container {
+  width: 138px;
+  height: 160px;
+  border: 1px solid #9699aa;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.card-container img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 40px;
+}
+.card-container h2 {
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.38px;
+  text-align: left;
+  color: #022959;
+  margin-bottom: 5px;
+}
+.card-container p {
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.09px;
+  text-align: left;
+  color: #9699aa;
+}
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 450px;
+  height: 48px;
+  background: #f8f9ff;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+.checkbox-card {
+  width: 450px;
+  height: 81px;
+  border: 1px solid #9699aa;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.checkbox-card label {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+}
+.checkbox-card label span {
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18.38px;
+  text-align: left;
+  color: #022959;
+}
+.price-chexkbox {
+  color: #483eff;
+}
+.radio-inputs-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.btn-three {
+  margin-top: 70px;
+}
+.confirm-button {
+  background: #483eff;
+}
+.result-container {
+  width: 450px;
+  height: 228px;
+  border-radius: 15px;
+  background: #f8f9ff;
+  padding: 20px;
+}
+.Arcade-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Arcade-result h2 {
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18.38px;
+  text-align: left;
+  color: #022959;
+  margin-bottom: 5px;
+}
+.Arcade-result a {
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #9699aa;
+}
+.Arcade-result span {
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: right;
+  color: #022959;
+}
+.result-info {
+  width: 402px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 20px 0px;
+  color: #9699aa;
+  font-size: 16px;
+}
+.result-total {
+  padding: 20px;
+}
+.result-total h3 {
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #9699aa;
+}
+.result-total span {
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: right;
+  color: #483eff;
+}
+.result-info span {
+  color: #022959;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: right;
+}
+hr {
+  margin: 10px;
+  color: #9699aa;
+}
+.Result-main-container {
+  width: 450px;
+  height: 238px;
+  margin: 150px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+  flex-direction: column;
+}
+.Result-main-container img {
+  width: 80px;
+  height: 80px;
+}
+.Result-main-container h1 {
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.77px;
+  text-align: center;
+  color: #022959;
+}
+.Result-main-container p {
+  color: #9699aa;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+.btn-wrapper {
+  justify-content: space-between;
+}
+.back-button {
+  border: none;
+  font-family: Ubuntu;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.38px;
+text-align: left;
+color: #9699AA;
+
+}
